@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Transactions</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <script src="../JS/navigation.js" defer></script> <!-- Dynamic Navigation -->
+</head>
+<body>
+  
+    <!-- Page Introduction -->
+    <div class="overlay">
+        <h1>Saved Transactions</h1>
+        <p>Please note that this is a demo, and no real transactions are saved.</p>
+    </div>
+
+    <!-- Login Form -->
+    <div class="container" id="login-container">
+        <h2>Login</h2>
+        <div class="login-form">
+            <input type="text" id="username" name="username" placeholder="Enter Username" autocomplete="username">
+            <!-- Autocomplete suggestions will be dynamically added below this input -->
+            <input type="password" id="password" name="password" placeholder="Enter Password" autocomplete="current-password">
+            <button id="login-button">Login</button>
+        </div>
+    </div>
+    <!-- Transactions Table -->
+    <div class="container" id="transactions-container" style="display: none;">
+        <h2>Your Saved Transactions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="saved-transactions">
+                <!-- Transactions will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+    <!-- Promotional Section -->
+    <div class="container promotional-section">
+        <h2>Manage Your Finances Better</h2>
+        <p>Explore some resources to improve your financial management skills:</p>
+        <ul>
+            <li><a href="https://www.investopedia.com/" target="_blank">Investopedia</a> - Learn about personal finance and investing.</li>
+            <li><a href="https://www.nerdwallet.com/" target="_blank">NerdWallet</a> - Compare financial products and get budgeting tips.</li>
+            <li><a href="https://www.mint.com/" target="_blank">Mint</a> - A free budgeting tool to track your expenses.</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Finance Tracker. All rights reserved.</p>
+        <p><a href="About.html">About Us</a> | <a href="Contact.html">Contact</a></p>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="../JS/SavedTransactions.js"></script>
+</body>
+</html>

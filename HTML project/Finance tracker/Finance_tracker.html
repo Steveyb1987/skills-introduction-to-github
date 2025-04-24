@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <script src="../JS/navigation.js" defer></script> <!-- Dynamic Navigation -->
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Tracker</h1>
+        <p>Welcome to the Finance Tracker! Use this tool to add and manage your daily transactions. Keep track of your expenses and stay on top of your finances.</p>
+        <p>This website is to show what i have learnt and to showcase my frontend developer skills this site has been done from scratch no templates</p>
+        
+        <!-- Summary Section -->
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>Total Transactions: <span id="total-transactions">0</span></p>
+            <p>Total Amount: $<span id="total-amount">0.00</span></p>
+        </div>
+
+        <!-- Form to Add Transactions -->
+<h2>Add Purchases</h2>
+<input type="text" id="description-input" placeholder="Enter description">
+<input type="number" id="amount-input" placeholder="Enter amount">
+<select id="category-input">
+    <option value="Coffee">Coffee</option>
+    <option value="Tea">Tea</option>
+    <option value="Pastry">Pastry</option>
+    <option value="Sandwich">Sandwich</option>
+    <option value="Juice">Juice</option>
+    <option value="Snacks">Snacks</option>
+    <option value="Dessert">Dessert</option>
+    <option value="Other">Other</option>
+</select>
+<button id="add-button">Add Transaction</button>
+<button id="clear-all-button" style="background-color: red; color: white;">Clear All Transactions</button>
+
+        <!-- Flash Message -->
+        <div id="flash-message">
+            Transaction added successfully!
+        </div>
+
+        <!-- Transaction List -->
+        <h2>Transaction List</h2>
+        <ul id="transaction-list">
+            <!-- Transactions will be dynamically added here -->
+        </ul>
+
+        <!-- Features Section -->
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Track your daily expenses with ease.</li>
+                <li>View a summary of your total transactions and amounts.</li>
+                <li>Organize transactions by categories like Food, Transport, Entertainment, and more.</li>
+                <li>Search and save your transactions for future reference.</li>
+            </ul>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="benefits">
+            <h2>Why Use Finance Tracker?</h2>
+            <p>Finance Tracker is designed to help you stay on top of your finances. With this tool, you can:</p>
+            <ul>
+                <li>Gain insights into your spending habits.</li>
+                <li>Plan your budget effectively.</li>
+                <li>Save time with an easy-to-use interface.</li>
+                <li>Access your data anytime, anywhere.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Link to the external JavaScript file -->
+    <script src="../JS/Finance_tracker.js"></script>
+</body>
+</html>
