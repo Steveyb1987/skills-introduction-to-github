@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Transactions</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <script src="../JS/navigation.js" defer></script> <!-- Dynamic Navigation -->
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Search Transactions</h1>
+        <p>Use the search tool below to find specific transactions by description.</p>
+        <p>None of these transactions are real and only entered for testing puposes</p>
+        <!-- Input field for search query -->
+        <input type="text" id="search-input" placeholder="Enter description">
+        <!-- Button to trigger the search -->
+        <button id="search-button">Search</button>
+        
+        <!-- Table to display search results -->
+        <table id="results-table">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="results-body">
+                <!-- Search results will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Promotional Section -->
+    <div class="overlay">
+        <h2>Learn More About Managing Your Finances</h2>
+        <p>Check out these resources to improve your financial management skills:</p>
+        
+              <!-- Image Section -->
+        <div class="image-container">
+            <h3>Visualize Your Financial Goals</h3>
+            <img src="../Images/AI_generated.jpeg" alt="Financial Goals">
+        </div>
+
+        <!-- Links to External Resources -->
+        <div class="links-container">
+            <h3>Helpful Resources</h3>
+            <ul>
+                <li><a href="https://www.investopedia.com/" target="_blank">Investopedia</a> - Learn about personal finance and investing.</li>
+                <li><a href="https://www.nerdwallet.com/" target="_blank">NerdWallet</a> - Compare financial products and get budgeting tips.</li>
+                <li><a href="https://www.mint.com/" target="_blank">Mint</a> - A free budgeting tool to track your expenses.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="../JS/Search.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.nav-pane {
+    background-color: #4CAF50;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nav-pane a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.nav-pane a:hover {
+    background-color: #45a049;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.about-container, .features, .how-it-works, .benefits, .team, .contact {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.features ul, .benefits ul, .contact ul, .how-it-works ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li, .benefits ul li, .contact ul li, .how-it-works ol li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact ul li {
+    margin: 5px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
